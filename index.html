@@ -9,7 +9,40 @@
 </head>
 <body>
 
+	<div class="card">
+		<div class="search">
+			<input type="text" placeholder="Taper un nom de ville ou pays" spellcheck="false">
+			<button>
+				<img src="assets/images/search.png" alt="Magnifying Glass Image">
+			</button>
+		</div>
+		<div class="error">
+			<p>Ville Ou Pays Inconnu...</p>
+		</div>
+		<div class="weather">
+			<img src="assets/images/rain.png" alt="Rainy Cloud Image" class="weatherIcon">
+			<h1 class="temp">22°C</h1>
+			<h2 class="city">New York</h2>
+			<div class="details">
+				<div class="col">
+					<img src="assets/images/humidity.png" alt="">
+					<div>
+						<p class="humidity">50%</p>
+						<p>Humidité</p>
+					</div>
+				</div>
+				<div class="col">
+					<img src="assets/images/wind.png" alt="">
+					<div>
+						<p class="wind">15 Km/h</p>
+						<p>Vitesse Du Vent</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- JS Link -->
-	<script src="js/script.js"></script>
+	<script src="js/script.js" type="module"></script>
 </body>
 </html>
